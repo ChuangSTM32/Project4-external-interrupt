@@ -99,10 +99,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-//	  state = HAL_GPIO_ReadPin(GPIOG, GPIO_PIN_2);
 	  uint32_t num = Get_Num();
 	  OLED_ShowNum(20, 30, num, &Font_16x26);
-//	  HAL_Delay(100);
+	  HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
