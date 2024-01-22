@@ -211,7 +211,6 @@ void EXTI15_10_IRQHandler(void)
 		GPIO_PinState num = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);
 		if (num == GPIO_PIN_SET) {
 			Plus_One();
-			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
 		}
 	}
 

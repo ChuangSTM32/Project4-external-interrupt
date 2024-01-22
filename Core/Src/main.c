@@ -101,7 +101,7 @@ int main(void)
   {
 //	  state = HAL_GPIO_ReadPin(GPIOG, GPIO_PIN_2);
 	  uint32_t num = Get_Num();
-	  OLED_ShowNum(0, 30, num, &Font_16x26);
+	  OLED_ShowNum(20, 30, num, &Font_16x26);
 //	  HAL_Delay(100);
     /* USER CODE END WHILE */
 
